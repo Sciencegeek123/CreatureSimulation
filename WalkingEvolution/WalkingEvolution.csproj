@@ -80,9 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Body\Body.cs" />
-    <Compile Include="Body\StageOne.cs" />
+    <Compile Include="Body\Bone.cs" />
+    <Compile Include="Body\Joint.cs" />
+    <Compile Include="Body\Muscle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
